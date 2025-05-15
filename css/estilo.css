@@ -19,4 +19,31 @@ tr :hover{
   background-color: #ffffff;
   color: rgb(77, 74, 74);
   font-size: 20px;
+
+
 }
+p{
+  background-color: aqua;
+}
+#cassio { 
+  color: gold;
+}
+#cassio p{
+  background-color: darkgreen;
+}.fundo_vermelho{
+  background-color: red;
+}
+
+.centralizado{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

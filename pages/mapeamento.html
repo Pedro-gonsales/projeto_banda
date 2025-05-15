@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,23 +6,34 @@
     <meta name="viewport" content="width=
     , initial-scale=1.0">
     <title>mapeamento</title>
-
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
-    <h1>mapeamento de imagem</h1>
-<style>
-h1 {
-    text-align: center;
-}
+
+    <h1 class="fundo_vermelho centralizado">
+        H1 fora da div
+    </h1>
+    <p>paragrafos fora da div</p>
+    <div id="cassio">
+        <h1>dentro da div</h1>
+        <h2> H2 fora da div</h2>
+        <p>paragrafos 1 fora da div</p>
+        <p class="fundo_vermelho">paragrafos 2 fora da div</p>
+    </div>
+
+
+    <img src="../imagens/images.png" alt="" usemap="#geraldo">
+    <map name="geraldo">
+        <area shape="poly" coords="26,64,64,5,103,65" href="https://www.globo.com/" alt="">
+        <area shape="rect" coords="148,11, 208,61" href="#" alt="">
+        <area shape="rect" coords="255,12, 360,61" href="#" alt="">
+        <area shape="circle" coords="417,35, 34" href="#" alt="">
+    </map>
 
 
 
-</style>
-<img src="../imagens/images.png" alt="" usemap="#mapa">
 
-<map name="outronome">
-<area shape="" coords="" href="" alt="">
 
-</map>
+
 </body>
 </html>
